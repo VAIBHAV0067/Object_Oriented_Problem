@@ -8,8 +8,30 @@ namespace InventoryDataManagement
 {
     public class Rice
     {
+        public List<TypesOfRice> typesOfRice;
+        public List<TypesOfGrains> typesOfGrains;
+        public List<TypesOfWheats> typesOfWheats;
+    }
+
+
+    public class TypesOfRice
+    {
         public string Name { get; set; }
-        public string Weight { get; set; }
-        public string Price { get; set; }
+        public int Weight { get; set; }
+        public int Price { get; set; }
+    }
+
+    public class TypesOfGrains
+    {
+        public string Name { get; set; }
+        public int Weight { get; set; }
+        public int Price { get; set; }
+    }
+
+    public class TypesOfWheats
+    {
+        public string Name { get; set; }
+        public int Weight { get; set; }
+        public int Price { get; set; }
     }
 }
